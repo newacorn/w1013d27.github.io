@@ -1,5 +1,15 @@
 /* Here is your custom css styles. */
 
+html {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",SimSun,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-rendering: optimizelegibility;
+    font-size: 16px;
+}
+
+
 /* hexo-filter-github-emojis */
 .github-emoji{
     height: 2em;
@@ -55,4 +65,21 @@
     28% {
         transform: translate(0, 0.5px) rotate(1.5deg);
     }
+
+
+}
+
+
+.row .col.l9 {
+    width: 79%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.l3 {
+    width: 21%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
 }
